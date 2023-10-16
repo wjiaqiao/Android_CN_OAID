@@ -36,7 +36,7 @@ import repeackage.com.google.android.gms.ads.identifier.internal.IAdvertisingIdS
  * @author 贵州山野羡民（1032694760@qq.com）
  * @since 2021/5/14 2:37
  */
-class GmsImpl implements IOAID {
+public class GmsImpl implements IOAID {
     private final Context context;
 
     public GmsImpl(Context context) {
